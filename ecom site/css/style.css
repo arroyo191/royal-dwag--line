@@ -1,0 +1,182 @@
+/* element selectors */
+
+header {
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+    padding: 0 0 20px 0;
+    
+    font-family: 'Sacramento', cursive;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 40px 0;
+    margin: 0 0 50px 0;
+    border-bottom: solid black;
+}
+
+
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    border-top:  solid black;
+    padding: 20px 0 0 0;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+h2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    padding: 0 0 20px 0;
+}
+
+h5 {
+    text-align: center;
+    font-size: larger;
+}
+
+ul {
+    list-style: none;
+}
+
+
+form {
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-right: 30px;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+
+
+/* ID SELECTORS */
+
+#first-pic {
+    width: 100%;
+    height: 600px;
+}
+
+#shirt-1,
+#shirt-3,
+#shirt-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#top-seller-1,
+#top-seller-2,
+#top-seller-3 {
+    background-color: rgb(224, 219, 219);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#info-pic {
+    width: 50%;
+    height: 500px;
+}
+
+
+#row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; 
+   align-items: flex-end;
+}
+
+#col {
+    width: 33%;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+#map-pic {
+    width: 100%;
+    height: 350px;
+
+    padding-top: 40px;
+}
+
+
+/* CLASS SELECTORS */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 100px 0 0 20px;
+    background-color: black;
+    
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.55em;
+    padding: 0 200px 0 200px;
+    font-family: 'Istok Web', sans-serif;  
+}
+
+.list {
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    font-size: 1.5em;
+    color: white;
+}
+
+.info-message {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    width: 30%;
+    float: left;
+   padding-left: 30px;
+}
+
+.contact-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+   padding-top: 20px;
+   text-align: center;
+}
+
+.pad {
+    margin-top: auto;
+    margin-bottom: auto;
+}
